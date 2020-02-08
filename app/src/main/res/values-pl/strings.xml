@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Privacy Notes</string>
+    <string name="Notepad_Tile_Description">Opis</string>
+    <string name="Notepad_Tile_Title">Tytuł</string>
+    <string name="Notepad_Tile_Share_ContentDescription">Udostępnij notatnik</string>
+    <string name="Notepad_Tile_Copy_ContentDescription">Skopiuj notatnik</string>
+    <string name="Notepad_Tile_Delete_ContentDescription">Usuń notatnik</string>
+    <string name="Notepad_Tile_Edit_ContentDescription">Edytuj notatnik</string>
+    <string name="Notepad_Add_Title">Wpisz tytuł</string>
+    <string name="Notepad_Add_Description">Wpisz opis</string>
+    <string name="Notepad_Add_Button_Text">Dodać</string>
+    <string name="Notepad_Add_Activity">Dodaj notatnik</string>
+    <string name="Notepad_List_Activity">Wszystkie notesy</string>
+    <string name="Notepad_Menu_Add">Dodaj notatnik</string>
+    <string name="Notepad_Menu_Search">Szukaj</string>
+    <string name="Notepad_Menu_Settings">Ustawienia</string>
+</resources>

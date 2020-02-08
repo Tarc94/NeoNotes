@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Privacy Notes</string>
+    <string name="Notepad_Tile_Description">Description</string>
+    <string name="Notepad_Tile_Title">Titre</string>
+    <string name="Notepad_Tile_Share_ContentDescription">Partager le bloc-notes</string>
+    <string name="Notepad_Tile_Copy_ContentDescription">Copier le bloc-notes</string>
+    <string name="Notepad_Tile_Delete_ContentDescription">Supprimer le bloc-notes</string>
+    <string name="Notepad_Tile_Edit_ContentDescription">Modifier le bloc-notes</string>
+    <string name="Notepad_Add_Title">Entrez le titre</string>
+    <string name="Notepad_Add_Description">Entrez la description</string>
+    <string name="Notepad_Add_Button_Text">Ajouter</string>
+    <string name="Notepad_Add_Activity">Ajouter un bloc-notes</string>
+    <string name="Notepad_List_Activity">Tous les blocs-notes</string>
+    <string name="Notepad_Menu_Add">Ajouter un bloc-notes</string>
+    <string name="Notepad_Menu_Search">Chercher</string>
+    <string name="Notepad_Menu_Settings">Réglages</string>
+</resources>

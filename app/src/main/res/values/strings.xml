@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Privacy Notes</string>
+    <string name="Notepad_Tile_Title">Title</string>
+    <string name="Notepad_Tile_Description">Description</string>
+    <string name="Notepad_Tile_Share_ContentDescription">Share notepad</string>
+    <string name="Notepad_Tile_Delete_ContentDescription">Delete notepad</string>
+    <string name="Notepad_Tile_Edit_ContentDescription">Edit notepad</string>
+    <string name="Notepad_Tile_Copy_ContentDescription">Copy notepad</string>
+    <string name="Notepad_Add_Title">Enter title</string>
+    <string name="Notepad_Add_Description">Enter description</string>
+    <string name="Notepad_Add_Button_Text">Add</string>
+    <string name="Notepad_List_Activity">All notepads</string>
+    <string name="Notepad_Add_Activity">Add notepad</string>
+    <string name="Notepad_Menu_Settings">Settings</string>
+    <string name="Notepad_Menu_Search">Search</string>
+    <string name="Notepad_Menu_Add">Add notepad</string>
+</resources>
