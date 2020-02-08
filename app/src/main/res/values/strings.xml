@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Privacy Notes</string>
+    <string name="app_name">NeoNotes</string>
     <string name="Notepad_Tile_Title">Title</string>
     <string name="Notepad_Tile_Description">Description</string>
     <string name="Notepad_Tile_Share_ContentDescription">Share notepad</string>

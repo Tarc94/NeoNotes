@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Privacy Notes</string>
+    <string name="app_name">NeoNotes</string>
     <string name="Notepad_Tile_Description">Opis</string>
     <string name="Notepad_Tile_Title">Tytuł</string>
     <string name="Notepad_Tile_Share_ContentDescription">Udostępnij notatnik</string>

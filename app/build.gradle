@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "neority.privacynotes"
+        applicationId "tarc94.neonotes"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
