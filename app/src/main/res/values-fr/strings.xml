@@ -15,4 +15,8 @@
     <string name="Notepad_Menu_Add">Ajouter un bloc-notes</string>
     <string name="Notepad_Menu_Search">Chercher</string>
     <string name="Notepad_Menu_Settings">Réglages</string>
+    <string name="Notepad_View_Activity">Affichage du bloc-notes</string>
+    <string name="Notepad_View_Title">Titre</string>
+    <string name="Notepad_View_Description">Description</string>
+    <string name="Notepad_View_Edit">Modifier le bloc-notes</string>
 </resources>

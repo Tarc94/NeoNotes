@@ -15,4 +15,8 @@
     <string name="Notepad_Menu_Add">Dodaj notatnik</string>
     <string name="Notepad_Menu_Search">Szukaj</string>
     <string name="Notepad_Menu_Settings">Ustawienia</string>
+    <string name="Notepad_View_Activity">Wyświetlanie notatnika</string>
+    <string name="Notepad_View_Title">Tytuł</string>
+    <string name="Notepad_View_Description">Opis</string>
+    <string name="Notepad_View_Edit">Edytuj notatnik</string>
 </resources>

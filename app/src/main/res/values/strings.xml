@@ -14,4 +14,8 @@
     <string name="Notepad_Menu_Settings">Settings</string>
     <string name="Notepad_Menu_Search">Search</string>
     <string name="Notepad_Menu_Add">Add notepad</string>
+    <string name="Notepad_View_Activity">Viewing notepad</string>
+    <string name="Notepad_View_Title">Title</string>
+    <string name="Notepad_View_Description">Description</string>
+    <string name="Notepad_View_Edit">Edit notepad</string>
 </resources>

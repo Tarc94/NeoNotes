@@ -1,4 +1,4 @@
-package tarc94.neonotes
+package tarc94.neonotes.activities
 
 import android.app.SearchManager
 import android.content.ClipData
@@ -16,7 +16,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.notepadtile.view.*
-import tarc94.neonotes.R.layout
+import tarc94.neonotes.R
+import tarc94.neonotes.helpers.DbManager
+import tarc94.neonotes.models.Notepad
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_main)
+        setContentView(R.layout.activity_main)
 
         loadQuery("%")
     }
@@ -85,11 +87,13 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.Notepad_Menu_Add) {
             startActivity(Intent(this, NotepadAddActivity::class.java))
+            return true
         } else if (item.itemId == R.id.Notepad_Menu_Settings) {
             Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show()
+            return true
         }
 
-        return super.onOptionsItemSelected(item)
+        return false
     }
 
     inner class MyNotepadAdapter(context: Context, listNotepad: ArrayList<Notepad>) :
@@ -99,10 +103,14 @@ class MainActivity : AppCompatActivity() {
         private var listNotepadAdapter = listNotepad
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-            val tileView = layoutInflater.inflate(layout.notepadtile, null)
+            val tileView = layoutInflater.inflate(R.layout.notepadtile, null)
             val notepad = listNotepadAdapter[position]
             tileView.Notepad_Tile_Title.text = notepad.notepadName
             tileView.Notepad_Tile_Description.text = notepad.notepadDes
+
+            tileView.setOnClickListener {
+                goToView(notepad)
+            }
 
             tileView.Notepad_Tile_Delete_Button.setOnClickListener {
                 val dbManager = DbManager(this.context!!)
@@ -151,6 +159,14 @@ class MainActivity : AppCompatActivity() {
         override fun getCount(): Int {
             return listNotepadAdapter.size
         }
+    }
+
+    private fun goToView(notepad: Notepad) {
+        val intent = Intent(this, NotepadViewActivity::class.java)
+        intent.putExtra("ID", notepad.notepadID)
+        intent.putExtra("Title", notepad.notepadName)
+        intent.putExtra("Description", notepad.notepadDes)
+        startActivity(intent)
     }
 
     private fun goToUpdate(notepad: Notepad) {

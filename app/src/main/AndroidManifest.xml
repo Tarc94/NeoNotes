@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/Notepad_List_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NotepadAddActivity"
+            android:name=".activities.NotepadViewActivity"
+            android:label="@string/Notepad_View_Activity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.NotepadAddActivity"
             android:label="@string/Notepad_Add_Activity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".activities.MainActivity" />
     </application>
 
 </manifest>

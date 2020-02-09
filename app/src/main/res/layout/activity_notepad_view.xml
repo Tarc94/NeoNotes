@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NotepadViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <tarc94.neonotes.controls.HeaderedTextView
+            android:id="@+id/Notepad_View_Title"
+            app:header="@string/Notepad_View_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <tarc94.neonotes.controls.HeaderedTextView
+            android:id="@+id/Notepad_View_Description"
+            app:header="@string/Notepad_View_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

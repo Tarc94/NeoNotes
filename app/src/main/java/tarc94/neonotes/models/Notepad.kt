@@ -1,4 +1,4 @@
-package tarc94.neonotes
+package tarc94.neonotes.models
 
 class Notepad(nodeID: Int, nodeName: String, nodeDes: String) {
 

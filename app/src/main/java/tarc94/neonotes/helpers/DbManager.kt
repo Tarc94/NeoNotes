@@ -1,4 +1,4 @@
-package tarc94.neonotes
+package tarc94.neonotes.helpers
 
 import android.content.ContentValues
 import android.content.Context

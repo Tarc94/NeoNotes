@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <ListView
         android:id="@+id/Notepad_AllView_List"
